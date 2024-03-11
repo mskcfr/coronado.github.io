@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #9999FF;
+    color: #333333;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.time-slot {
+    background-color: #CCCCFF;
+}
+
+.class-itep {
+    background-color: #FFFFBB;
+}
+
+.class-itel {
+    background-color: #00FF00;
+}
+
+.empty-slot {
+    background-color: #9999FF;
+}
+
+.time-slot-blue {
+    background-color: #CCCCFF;
+}
+
+.highlight-yellow {
+    background-color: #FFFF00;
+}
+
+.empty-slot-purple {
+    background-color: #9999FF;
+}
+
+.class-itel-green {
+    background-color: #00FF00;
+}
+.time-slot-blue {
+    background-color: #CCCCFF;
+}
+
+.empty-slot-purple {
+    background-color: #9999FF;
+}
+
+.class-itep-yellow {
+    background-color: #FFFF00; 
+}
+
+.class-itel-green {
+    background-color: #00FF00;
+}
+
+.special-itep-cyan {
+    background-color: #00FFFF;
+}
+
+.class-itep-lightyellow {
+    background-color: #FFFFBB;
+}
+
+.class-gec-pink {
+    background-color: #FFB6C1;
+}
+
+.class-itep-magenta {
+    background-color: #FF66FF;
+}
+.class-pe4-orange {
+    background-color: #FF9900;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+td {
+    width: 15%;
+}
+
+td:first-child {
+    width: 10%;
+}
+
+img {
+    margin: 20px 0;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+@media print {
+    body {
+        color: black;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    table, th, td {
+        border-color: #d3d3d3;
+    }
+
+    td, th {
+        background-color: white;
+    }
+}
